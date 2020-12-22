@@ -17,7 +17,6 @@ const transformIntoObjects = (item) => {
 // get input
 const inputArray = fs
   .readFileSync(path.resolve(__dirname, "input.txt"), {
-    relative: true,
     encoding: "utf-8",
   })
   .split("\n")
